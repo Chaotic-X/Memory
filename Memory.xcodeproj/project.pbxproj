@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F76B74D422691293008BCC89 /* Emoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76B74D322691293008BCC89 /* Emoji.swift */; };
+		F76B74D822693064008BCC89 /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76B74D722693064008BCC89 /* CardViewController.swift */; };
+		F76B74D92269327B008BCC89 /* Emoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76B74D322691293008BCC89 /* Emoji.swift */; };
 		FA2221CF22690B55004A7BA8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2221CE22690B55004A7BA8 /* AppDelegate.swift */; };
 		FA2221D422690B55004A7BA8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA2221D222690B55004A7BA8 /* Main.storyboard */; };
 		FA2221D622690B57004A7BA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA2221D522690B57004A7BA8 /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		F76B74D322691293008BCC89 /* Emoji.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emoji.swift; sourceTree = "<group>"; };
+		F76B74D722693064008BCC89 /* CardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewController.swift; sourceTree = "<group>"; };
 		FA2221CB22690B55004A7BA8 /* Memory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Memory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA2221CE22690B55004A7BA8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA2221D322690B55004A7BA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -60,6 +62,8 @@
 		FA2221CD22690B55004A7BA8 /* Memory */ = {
 			isa = PBXGroup;
 			children = (
+				F76B74D322691293008BCC89 /* Emoji.swift */,
+				F76B74D722693064008BCC89 /* CardViewController.swift */,
 				FA2221E022690E38004A7BA8 /* UIElements */,
 				FA2221CE22690B55004A7BA8 /* AppDelegate.swift */,
 				FA2221D222690B55004A7BA8 /* Main.storyboard */,
@@ -67,7 +71,6 @@
 				FA2221EB22691ABA004A7BA8 /* Colors.xcassets */,
 				FA2221D722690B57004A7BA8 /* LaunchScreen.storyboard */,
 				FA2221DA22690B57004A7BA8 /* Info.plist */,
-				F76B74D322691293008BCC89 /* Emoji.swift */,
 			);
 			path = Memory;
 			sourceTree = "<group>";
@@ -153,6 +156,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F76B74D92269327B008BCC89 /* Emoji.swift in Sources */,
+				F76B74D822693064008BCC89 /* CardViewController.swift in Sources */,
 				FA2221F1226924C4004A7BA8 /* CardSGUIbutton.swift in Sources */,
 				FA2221E822691999004A7BA8 /* CardStyleGuide.swift in Sources */,
 				FA2221CF22690B55004A7BA8 /* AppDelegate.swift in Sources */,
