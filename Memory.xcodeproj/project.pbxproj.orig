@@ -153,8 +153,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+<<<<<<< HEAD
+				F76B74D422691293008BCC89 /* Emoji.swift in Sources */,
+=======
 				FA2221F1226924C4004A7BA8 /* CardSGUIbutton.swift in Sources */,
 				FA2221E822691999004A7BA8 /* CardStyleGuide.swift in Sources */,
+>>>>>>> alex
 				FA2221CF22690B55004A7BA8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
